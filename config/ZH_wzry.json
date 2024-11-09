@@ -1,0 +1,154 @@
+{
+    "data_root_path": "/data/王者荣耀",
+    "full_game": "王者荣耀",
+    "intent": "我想要进行人机游戏,",
+    "stages":{
+        "1_0登陆游戏-开始游戏":{
+            "action_type": "point",
+            "en_stage": "1_0Login",
+            "button": "开始游戏",
+            "answer_status":"游戏准备",
+            "answer_action":"图片显示了游戏登录界面,中心下方有黄色的开始游戏(START)按钮,想要游玩游戏应点击开始游戏,因此操作是{}{}"
+        },
+        "1_1广告弹窗-关闭":{
+            "action_type": "point",
+            "en_stage": "1_1CloseAids",
+            "button": "关闭",
+            "answer_status":"游戏准备",
+            "answer_action":"图片显示了中心高亮了广告弹窗,右上角有关闭按钮,想要游玩游戏应关闭广告以开始游戏,因此操作是{}{}"
+        },
+        "1_2游戏更新弹窗_关闭":{
+            "action_type": "point",
+            "en_stage": "1_2GameUpdates",
+            "button": "关闭",
+            "answer_status":"游戏准备",
+            "answer_action":"图片显示了游戏的更新公告,右上角有关闭按钮,想要游玩游戏应关闭公告以开始游戏,因此操作是{}{}"
+        },
+        "1_3礼物获取_确定":{
+            "action_type": "point",
+            "en_stage": "1_3Gift",
+            "button": "确定",
+            "answer_status":"游戏准备",
+            "answer_action":"图片显示了玩家获得的礼物信息,下方有确定按钮,想要游玩游戏点击确定关闭信息,因此操作是{}{}"
+        },
+        "2游戏大厅界面-下方对战":{
+            "action_type": "point",
+            "en_stage": "2GameLobby",
+            "button": "对战",
+            "answer_status":"游戏准备",
+            "answer_action":"图片显示了游戏大厅准备界面,下方有黄色的对战按钮,想要游玩游戏应选择点击对战选择对战模式,因此操作是{}{}"
+        },
+        "3对战模式-5v5王者峡谷":{
+            "action_type": "point",
+            "en_stage": "3BattleMode",
+            "button": "5v5王者峡谷",
+            "answer_status":"游戏准备",
+            "answer_action":"图片显示了游戏模式:竞技对抗页面,左侧有5v5王者峡谷按钮,想要游玩游戏应选择5v5王者峡谷模式进入游戏,因此操作是{}{}"
+        },
+        "4_5v5模式下-人机":{
+            "action_type": "point",
+            "en_stage": "4_5v5Mode",
+            "button": "人机",
+            "answer_status":"游戏准备",
+            "answer_action":"图片显示了游戏模式:王者峡谷页面,中间有人机按钮,想要游玩游戏应点击人机开始与人机对抗,因此操作是{}{}"
+        },
+        "5标准模式难度1-开始练习":{
+            "action_type": "point",
+            "en_stage": "5HumMachine",
+            "button": "开始练习",
+            "answer_status":"游戏准备",
+            "answer_action":"图片显示了人机模式页面,左侧已选择标准模式,中心选择难度1,右下方有开始练习按钮,想要游玩游戏应点击开始练习,因此操作是{}{}"
+        },
+        "6_5v5组队-开始游戏":{
+            "action_type": "point",
+            "en_stage": "6_5v5",
+            "button": "开始游戏",
+            "answer_status":"游戏准备",
+            "answer_action":"图片显示了5v5组队页面,右下方有开始游戏按钮,想要游玩游戏应点击开始游戏,因此操作是{}{}"
+        },
+        "7匹配中":{
+            "action_type": "None",
+            "en_stage": "7Matching",
+            "button": "",
+            "answer_status":"游戏准备",
+            "answer_action":"图片显示了5v5组队页面,右下方显示匹配中,无需操作,等待即可,因此操作是<ref>无</ref>"            
+        },
+        "8匹配成功-确认":{
+            "action_type": "point",
+            "en_stage": "8Matched",
+            "button": "确认",
+            "answer_status":"游戏准备",
+            "answer_action":"图片显示了组队匹配成功页面,下方有确认按钮,想要游玩游戏应点击确认,因此操作是{}{}"
+        },
+        "9英雄选择-可不操作":{
+            "action_type": "None",
+            "en_stage": "9HeroSelect",
+            "button": "",
+            "answer_status":"游戏准备",
+            "answer_action":"图片显示了英雄选择页面,左侧有两列英雄头像,无需操作,等待随机分配英雄即可,因此操作是<ref>无</ref>"             
+        },
+        "10游戏中":{
+            "action_type": "None",
+            "en_stage": "10InGame",
+            "button": "",
+            "answer_status":"游戏中",
+            "answer_action":"图片显示了正在游戏对战中,左上角有小地图,右下角攻击(剑)按钮和多个技能按钮,无需推荐操作,因此操作是<ref>无</ref>"             
+        },
+        "11游戏结束-胜利-点击屏幕继续":{
+            "action_type": "point",
+            "en_stage": "11GameOver_victory",
+            "button": "点击屏幕继续",
+            "answer_status":"游戏结束",
+            "answer_action":"图片显示了游戏结束画面,本局胜利,下方有'点击屏幕继续',想要游玩游戏应点击屏幕继续,开启下一把人机游戏,因此操作是{}{}"
+        },
+        "11游戏结束-失败-点击屏幕继续":{
+            "action_type": "point",
+            "en_stage": "11GameOver_lose",
+            "button": "点击屏幕继续",
+            "answer_status":"游戏结束",
+            "answer_action":"图片显示了游戏结束画面,本局失败,下方有'点击屏幕继续',想要游玩游戏应点击屏幕继续,开启下一把人机游戏,因此操作是{}{}"
+        },
+        "12团队表现-点击此处继续":{
+            "action_type": "point",
+            "en_stage": "12TeamPerform",
+            "button": "点击此处继续",
+            "answer_status":"游戏结束",
+            "answer_action":"图片显示了本局我方5位英雄的表现,下方有'点击此处继续',想要游玩游戏应点击'点击此处继续',开启下一把人机游戏,因此操作是{}{}"
+        },
+        "13个人本局表现-点击此处继续":{
+            "action_type": "point",
+            "en_stage": "13PersonalPerform",
+            "button": "点击此处继续",
+            "answer_status":"游戏结束",
+            "answer_action":"图片显示了本局个人战绩信息,下方有'点击此处继续',想要游玩游戏应点击'点击此处继续',开启下一把人机游戏,因此操作是{}{}"
+        },
+        "14_0战绩结算-返回房间":{
+            "action_type": "point",
+            "en_stage": "14_0BattleInfo",
+            "button": "点击此处继续",
+            "answer_status":"游戏结束",
+            "answer_action":"图片显示了本局双方团队的战绩信息,下方有返回房间按钮,想要游玩游戏应点击返回房间,开启下一把人机游戏,因此操作是{}{}"
+        },
+        "14_1荣耀战令-确定":{
+            "action_type": "point",
+            "en_stage": "14_1UpgradeInfo",
+            "button": "确定",
+            "answer_status":"游戏结束",
+            "answer_action":"图片显示了玩家等级(荣耀升级)升级信息,下方有确定按钮,想要游玩游戏应点击确定关闭信息,开启下一把人机游戏,因此操作是{}{}"
+        },
+        "14_2翻页广告-我知道啦":{
+            "action_type": "point",
+            "en_stage": "14_2FlipAids",
+            "button": "我知道啦",
+            "answer_status":"游戏准备",
+            "answer_action":"图片高亮显示了弹窗信息,下方有'我知道啦'按钮,想要游玩游戏应点击'我知道啦'关闭信息,开启下一把人机游戏,因此操作是{}{}"
+        },
+        "游戏加载":{
+            "action_type": "None",
+            "en_stage": "Loading",
+            "button": "",
+            "answer_status":"游戏加载",
+            "answer_action":"图片显示了游戏加载画面,无需操作,等待即可,因此操作是<ref>无</ref>"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "actions": [
+        {
+            "hand": "左手",
+            "action": "点击",
+            "coordinates": {
+                "rx": 0.2097,
+                "ry": 0.6589
+            },
+            "duration": 0
+        }
+    ]
+}
