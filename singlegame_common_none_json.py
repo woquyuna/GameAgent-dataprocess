@@ -10,7 +10,7 @@ from prompt.prompts import default_Q_prompts
 config_path = "config/ZH_wzry.json"  
 
 config = parse_game_config(config_path)  # main config
-repeat_config = parse_game_config("/data/hjj/game/data_clean/all_game_config_1028.json") # sample repeater
+repeat_config = parse_game_config("all_game_config.json") # sample repeater
 
 game = config["data_root_path"]     # path
 full_game = config["full_game"]     # full game name in prompt

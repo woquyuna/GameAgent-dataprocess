@@ -34,6 +34,6 @@ all_games["王者荣耀"] = {
     "游戏加载": 6*c,
 }
 
-with open("all_game_config_1028.json", "w", encoding="utf-8") as f:
+with open("all_game_config.json", "w", encoding="utf-8") as f:
     json.dump(all_games, f, ensure_ascii=False, indent=4)
 
